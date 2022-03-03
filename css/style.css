@@ -194,8 +194,8 @@ section {
   margin-top: 20px;
   font-size: 42px;
   line-height: 1.16;
-} 
-
+  margin-bottom: 44px;
+}
 
 .text {
   font-family: "Open Sans", sans-serif;
@@ -229,15 +229,44 @@ button {
 }
 
 .our-service {
-  background: linear-gradient(rgba(0, 0, 0, 0.912), rgba(0, 0, 0, 0.837)), url(../images/bg-about.jpg);
+  background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%),
+  url(../images/prices.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
 }
 
 .dark-container {
   padding: 0 31px;
 }
 
-.white-title {
-
+.prices {
+  width: 418px;
+  height: 440px;
+  padding: 30px;;
+  background-color: #000000b0;
+  margin-bottom: 50px;
 }
 
+.price-item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
 
+.price-item:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.button-price {
+display: block;
+margin: auto;
+
+}
