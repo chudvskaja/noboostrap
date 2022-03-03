@@ -1,0 +1,135 @@
+:root {
+  --title-color: #303030;
+  --main-text-color: #555555;
+  --accent-color: #ff6c00;
+  --light-text-color: #9da4bd;
+  --white-color: #ffffff;
+  --main-bg-color: #e5e5e5;
+  --element-bg-color: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../images/bg-header1x.jpg);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#myLinks {
+  display: none;
+  background-color: #fff;
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 80px;
+}
+
+#myLinks a {
+  color: var(--accent-color);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* .topnav a.icon {
+    display: block;
+    right: 0;
+    top: 0;
+  } */
+
+.mobile-container {
+  max-width: 480px;
+  padding: 20px;
+}
+
+/* .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+ 
+
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+#menu-burger {
+  width: 35px;
+  height: 35px;
+  float: right;
+  position: relative;
+}
+
+.line1 {
+  width: 25px;
+  height: 2px;
+  background-color: var(--white-color);
+  position: absolute;
+  margin-bottom: 7px;
+  top: 5px;
+  left: 5px;
+}
+
+.line2 {
+  width: 25px;
+  height: 2px;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 15px;
+  left: 5px;
+}
+
+.line3 {
+  width: 25px;
+  height: 2px;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  margin-top: 10px;
+}
+
+.open .line1 {
+  background-color: var(--accent-color);
+}
+
+.open .line2 {
+  background-color: var(--accent-color);
+  display: none;
+}
+.open .line3 {
+  background-color: var(--accent-color);
+}
+
+a.icon {
+  z-index: 1;
+}
