@@ -35,6 +35,12 @@ h1 {
   margin-top: 20px;
 }
 
+a::visited {
+  text-decoration: none;
+  color: #ff6c00;
+}
+
+
 .feature {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -503,7 +509,7 @@ footer {
     display: none;
     background-color: #fff;
     width: 40vw;
-    height: 100vh;
+    height: 70vh;
     position: absolute;
     top: 0;
     right: 0;
