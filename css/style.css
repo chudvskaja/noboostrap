@@ -17,6 +17,7 @@
 header {
   background-image: url(../images/bg-header1x.jpg);
   height: 580px;
+  min-width: 480px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -162,6 +163,7 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 480px;
 }
 
 ul {
@@ -257,6 +259,7 @@ ul {
 
 .our-team {
   background-color: var(--element-bg-color);
+  min-width: 480px;
 }
 
 .second-title.dark.team {
@@ -327,6 +330,7 @@ svg:hover {
 .form {
   background-color: #191c26;
   padding: 84px 31px;
+  min-width:480px;
 }
 
 .form > h2 {
@@ -382,6 +386,7 @@ address {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #9da4bd;
+  
 }
 
 .second-title.white.address {
@@ -396,6 +401,7 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   padding: 84px 0;
+  min-width: 480px;
 }
 
 .street:hover {
@@ -445,6 +451,7 @@ address > span {
 footer {
   background-color: #f7f7f7;
   padding: 44px 31px;
+  min-width: 480px;
 }
 
 .footer-social-item {
@@ -685,12 +692,14 @@ footer {
     transform: rotate(90deg);
     background-color: #303030;
     margin-bottom: 40px;
+    width: 50px;
   }
 
   .text-with-line.aside {
     display: flex;
     writing-mode: vertical-lr;
     justify-content: flex-start;
+    transform: rotate(180deg);
   }
 
 }
@@ -912,11 +921,12 @@ address {
 
   .feature-list {
     flex: 1;
+    margin-top: 0;
   }
 
 .team-desktop {
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
 }
 .team-photo {
   width: 100%;
@@ -960,6 +970,10 @@ address {
 
 .text.about {
   font-size: 16px;
+}
+
+.second-title.dark.feature {
+  justify-content: center;
 }
 
   }
